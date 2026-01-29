@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Shield Outline -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M54,22 L32,32 V54 C32,68.5 41.5,81.2 54,86 C66.5,81.2 76,68.5 76,54 V32 L54,22 Z"/>
+        <!-- Inner Lock Shackle -->
+        <path
+            android:fillColor="#D0BCFF"
+            android:pathData="M54,38 C49.6,38 46,41.6 46,46 V50 H44 C42.9,50 42,50.9 42,52 V64 C42,65.1 42.9,66 44,66 H64 C65.1,66 66,65.1 66,64 V52 C66,50.9 65.1,50 64,50 H62 V46 C62,41.6 58.4,38 54,38 Z M54,41 C56.8,41 59,43.2 59,46 V50 H49 V46 C49,43.2 51.2,41 54,41 Z"/>
+        <!-- Keyhole Detail -->
+        <path
+            android:fillColor="#381E72"
+            android:pathData="M54,55 C52.9,55 52,55.9 52,57 C52,57.7 52.4,58.4 53,58.7 V61 C53,61.6 53.4,62 54,62 C54.6,62 55,61.6 55,61 V58.7 C55.6,58.4 56,57.7 56,57 C56,55.9 55.1,55 54,55 Z"/>
+    </group>
+</vector>
