@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ReelLock</string>
+    <string name="accessibility_service_label">ReelLock - Instagram Reels Blocker</string>
+    <string name="accessibility_service_description">Monitors Instagram screen content to block Reels and prevent doomscrolling.</string>
+    <string name="service_status_active">Service Status: ACTIVE</string>
+    <string name="service_status_inactive">Service Status: INACTIVE</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="overlay_permission">Grant Overlay Permission</string>
+    <string name="action_mode">Action Mode</string>
+    <string name="mode_back">Auto Back Button</string>
+    <string name="mode_home">Redirect to Home Screen</string>
+    <string name="mode_overlay">Show Blocker Overlay</string>
+</resources>
