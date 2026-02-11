@@ -1,0 +1,60 @@
+site_name: ReelLock Documentation
+site_description: Technical documentation for ReelLock - Instagram Reels Blocker for Android
+site_author: ReelLock Contributors
+site_url: https://sohamtilekar.github.io/ReelLock/
+
+repo_name: ReelLock/ReelLock
+repo_url: https://github.com/ReelLock/ReelLock
+
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Overview: index.md
+  - User Guide: user-guide.md
+  - Architecture: architecture.md
+  - Building & Release: building.md
+  - FAQ & OEM Guide: faq.md
