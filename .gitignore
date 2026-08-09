@@ -3,6 +3,7 @@
 *.aar
 *.ap_
 *.aab
+*.sha256
 
 # Signing keystores
 *.keystore

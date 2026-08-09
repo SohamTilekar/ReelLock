@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" width="128" alt="ReelLock Logo">
+</p>
+
 # Welcome to ReelLock
 
 **ReelLock** is an open-source Android digital wellbeing application engineered to detect and block Instagram Reels in real time, helping users eliminate infinite scrolling and reclaim focus.

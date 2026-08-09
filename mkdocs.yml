@@ -3,11 +3,13 @@ site_description: Technical documentation for ReelLock - Instagram Reels Blocker
 site_author: ReelLock Contributors
 site_url: https://sohamtilekar.github.io/ReelLock/
 
-repo_name: ReelLock/ReelLock
-repo_url: https://github.com/ReelLock/ReelLock
+repo_name: SohamTilekar/ReelLock
+repo_url: https://github.com/SohamTilekar/ReelLock
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   language: en
   palette:
     # Light mode
