@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/logo.png" width="128" alt="ReelLock App Icon">
+</p>
+
 # 🛡️ ReelLock — Instagram Reels Blocker for Android
 
 [![Android API](https://img.shields.io/badge/Android-7.0%2B%20(API%2024%2B)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
