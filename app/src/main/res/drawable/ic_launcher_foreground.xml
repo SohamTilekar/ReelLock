@@ -6,17 +6,29 @@
     <group
         android:translateX="0"
         android:translateY="0">
-        <!-- Shield Outline -->
+        <!-- Outer White Shield Frame -->
         <path
-            android:fillColor="#6750A4"
-            android:pathData="M54,22 L32,32 V54 C32,68.5 41.5,81.2 54,86 C66.5,81.2 76,68.5 76,54 V32 L54,22 Z"/>
-        <!-- Inner Lock Shackle -->
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,20 L27,32 V56 C27,73 40.5,86.5 54,91.5 C67.5,86.5 81,73 81,56 V32 L54,20 Z"/>
+        <!-- Inner Shield Left Half -->
         <path
-            android:fillColor="#D0BCFF"
-            android:pathData="M54,38 C49.6,38 46,41.6 46,46 V50 H44 C42.9,50 42,50.9 42,52 V64 C42,65.1 42.9,66 44,66 H64 C65.1,66 66,65.1 66,64 V52 C66,50.9 65.1,50 64,50 H62 V46 C62,41.6 58.4,38 54,38 Z M54,41 C56.8,41 59,43.2 59,46 V50 H49 V46 C49,43.2 51.2,41 54,41 Z"/>
-        <!-- Keyhole Detail -->
+            android:fillColor="#3224A8"
+            android:pathData="M54,26 L32,36 V56 C32,69.5 43,80.5 54,84.7 Z"/>
+        <!-- Inner Shield Right Half (Shadow) -->
         <path
-            android:fillColor="#381E72"
-            android:pathData="M54,55 C52.9,55 52,55.9 52,57 C52,57.7 52.4,58.4 53,58.7 V61 C53,61.6 53.4,62 54,62 C54.6,62 55,61.6 55,61 V58.7 C55.6,58.4 56,57.7 56,57 C56,55.9 55.1,55 54,55 Z"/>
+            android:fillColor="#241787"
+            android:pathData="M54,26 L76,36 V56 C76,69.5 65,80.5 54,84.7 Z"/>
+        <!-- Padlock Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M41,51 H67 C69.2,51 71,52.8 71,55 V71 C71,73.2 69.2,75 67,75 H41 C38.8,75 37,73.2 37,71 V55 C37,52.8 38.8,51 41,51 Z"/>
+        <!-- Padlock Shackle -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M45,51 V45 C45,40 49,36 54,36 C59,36 63,40 63,45 V51 H58 V45 C58,42.8 56.2,41 54,41 C51.8,41 50,42.8 50,45 V51 H45 Z"/>
+        <!-- Keyhole -->
+        <path
+            android:fillColor="#21187A"
+            android:pathData="M54,59 C52.3,59 51,60.3 51,62 C51,63 51.5,63.9 52.3,64.4 L51.5,69 H56.5 L55.7,64.4 C56.5,63.9 57,63 57,62 C57,60.3 55.7,59 54,59 Z"/>
     </group>
 </vector>
